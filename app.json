@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "my-app2",
-    "slug": "my-app2",
+    "slug": "nextwithreactnative",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.kiruthikat910.nextwithreactnative"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5bbba6c6-efa7-46a1-901e-2e9d818a5a2e"
+      }
+    },
+    "owner": "kiruthikat910"
   }
 }
